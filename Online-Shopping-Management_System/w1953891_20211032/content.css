@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'PT Serif', serif; 
+    background:linear-gradient(to right, rgb(0, 36, 36), rgb(0, 20, 20),rgb(0, 9, 9)); 
+}
+
+/* h1{
+    font-size: 25px;
+    padding-bottom: ;
+} */
+
+.content-info {
+    margin: 0 75px;
+}
+
+.content-info h1 {
+    padding-bottom: 25px;
+    color: #daa520;
+}
+
+.content-links{
+    margin-top: 50px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 20px;
+    background:#dbc07a;
+    font-size: 15px; 
+    font-weight: 600;
+}
+
+.content-links a{
+    color: black;
+}
+
+.content-links a:hover{
+    font-size: 16px;
+}
+
+.content{
+    display: flex;
+    /* padding:20px; */
+    margin: 30px 20px;
+    height: 300px;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 25px;
+}
+
+.content p{
+    text-align: justify;
+    padding: 10px 0px;
+    font-size: 16px;
+    line-height: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content1 p{
+    padding-left: 50px;
+}
+
+.content1-para h1{
+    padding-left: 50px;
+}
+
+/* .content1 h1{
+    padding: 0px 50px;
+} */
+
+.content2 p{
+    padding-right: 50px;
+}
+
+.content3 {
+    color: black;
+    margin: 30px 70px;
+    background: linear-gradient(to right,#dbc07a,#daa520);
+    /* background: linear-gradient(to right, rgba(2, 120, 120, .5),rgb(1, 50, 50,.5)); */
+    padding: 50px 50px;
+    font-size: 15px;
+}
+
+.content3 h1 {
+    color: black;
+}
+
+.content3 ul {
+    padding-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: black;
+    line-height: 40px;
+}
+
+/* .content3 h1{
+    padding-bottom: 10px;
+} */
+
+.hr_in{
+    background-color: #f6e2ac;
+}
+
+.content4{
+    padding-left: 70px;
+    padding-top: 25px;
+    color: white;
+}
+
+.artists {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* .artists img{
+    width: 300px;
+}  */
+
+.artists-info{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:350px ;
+    width: 250px;
+}
+
+.artists-info h2{
+    text-align: center;
+    padding: 160px 0px;
+}
+
+.artists-info h2:hover{
+    background: rgb(255, 255, 255,.5);
+    text-align: center;
+    padding: 160px 0px;
+}
+
+.content5{
+    color: white;
+    padding: 70px;
+    padding-top: 25px;
+}
+
+.gallery-pics{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding:0px 175px;
+    padding-top: 20px;
+}
+
+.gallery-column{
+    -ms-flex: 33.3%;
+    flex: 25%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+
+.gallery-column img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border:2px solid #daa520;
+}
+
+.button {
+    display: flex;
+    margin-left: 1250px;
+    margin-bottom: 40px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: black;
+    background: #f6e2ac;
+    /* background-color: rgb(56, 186, 186); */
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+}
+

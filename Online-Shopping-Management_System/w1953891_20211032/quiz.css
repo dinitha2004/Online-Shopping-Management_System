@@ -1,0 +1,48 @@
+.mcq-rules {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+.mcq-rules h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0d1d66;
+}
+  
+.mcq-rules ol {
+    margin-left: 30px;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #000000;
+}
+  
+.mcq-rules li {
+    margin-bottom: 10px;
+}
+  
+.mcq-rules button {
+    display: block;
+    margin: 30px auto 0;
+    padding: 15px 30px;
+    background-color: #ffbb00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.mcq-rules button:hover {
+    background-color: #684606c4;
+}
